@@ -3,5 +3,67 @@
 
 *{
   box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Rationale', sans-serif;
+}
+.main-menu{
+  margin-top: 30px;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  li{
+    display: inline-block;
+    background: rgba(236, 240, 241,0.9);
+    margin-left: 10px;
+    padding:10px 5px;
+    opacity: 0.9;
+    font-weight: 700;
+    &:hover{
+      background:  rgba(236, 240, 241,0.6);
+      cursor: pointer;
+      font-weight: 700;
+    }
+  }
+}
+#about{
+  background-image: url("../images/cat.jpg");
+  filter: brightness(0.8);
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .logo{
+    width: 480px;
+    height: 166px;
+    margin-bottom: 60px;
+    filter: contrast(400%);
+  }
+  p{
+    font-size: 3em;
+    position: absolute;
+    color: rgba(236, 240, 241,1.0);
+    padding-bottom: 5px;
+    }
+}
+
+
+.parallax_section{
+  background-image: url("../images/plan.jpg");
+  background-attachment: fixed;
+    background-position: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24vh;
+    max-height: 800px;
+    min-height: 200px;
+}
+#slide-2{
   background: red;
+  height: 100vh;
 }
