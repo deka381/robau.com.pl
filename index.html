@@ -8,30 +8,132 @@
   <link rel="stylesheet" href="./scss/reset.css">
   <link rel="stylesheet" href="./css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Rationale" rel="stylesheet">
+  <link rel="stylesheet" href="./font/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="container">
   <nav>
     <ul class="main-menu">
-      <li>O firmie</li>
-      <li>Zakres prac</li>
+      <li class="about">O firmie</li>
+      <li class="work">Zakres prac</li>
+      <li class="contact">Kontakt</li>
       <li>Referencje</li>
       <li>Galeria</li>
-      <li>Kontakt</li>
     </ul>
   </nav>
-  <section id="about">
+  <section id="main">
     <img src="./images/logo.png" alt="robau-logo" class="logo">
     <p>Firma budowlana</p>
   </section>
 
   <section id="slide-1"  class="parallax_section">
-
+<!-- PARALAXA -->
   </section>
 
-  <section id="slide-2">
 
+
+  <section id="about">
+    <div class="row">
+      <div class="col-6">
+        <h3>O naszej firmie.</h3>
+        <p>W branży budowlanej pracujemy już kilkanaście lat,
+        historia powstania firmy sięga roku 2002. Zakres prowadzonej przez nas
+        działalności jest bardzo szeroki. Wykonujemy prace standardowe jak
+        i nie boimy się trudnych wyzwań co już pokazaliśmy w przeszłości.
+        Zajmujemy się budownictwem szczególnie w Krakowie i jego okolicach
+        ale także pracujemy w innych rejonach kraju. Posiadamy bardzo duże
+        doświadzenie w budownictwie oraz liczną i wykwalifikowaną kadrę.
+        Pracujemy dla klientów indywidualnych oraz biznesowych.
+        </p>
+      </div>
+
+      <div class="col-6">
+        <div class="about-img-top">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        <div class="about-img-bot">
+        </div>
+
+      </div>
+      <div class="col-6">
+        <p>
+          Nasze prace oparte są na nowoczesnych technologiach jednocześnie nie
+          zapominamy o tradycyjnych metodach. Podczas realizacji robót potrafimy
+          przeprowadzić doradztwo techniczne co znacząco poprawia jakość pracy
+          jak i zmniejsza ewentualne koszty co jest wielkim plusem współpracy
+          z nami. Na życzenie klienta możemy wykonać prace tylko na poczególnym
+          etapie np. fundamenty bądź prace murarskie. Szanujemy Państwa czas,
+          ściśle przestrzegamy terminu rozpoczęcia i zakończenia prac budowlanych.
+          ZAPRASZAMY do współpracy !!!
+        </p>
+      </div>
+    </div>
   </section>
+
+  <section id="work">
+    <div class="row">
+      <div class="col-12"><h3>Zakres prac:</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-4">
+        <h4>Zakres naszych prac obejmuje:</h4>
+        <p>Głównie murowanie oraż prace żelbetowe</p>
+        <p>Kompleksową budowa rezydencji i budynków mieszkalnych jedno i wielorodzinnych "pod klucz"</p>
+        <p>Wykonywanie hal magazynowo-przemysłowych</p>
+        <p>Budowa obiektów użyteczności publicznej</p>
+        <p>Budowa obiektów handlowo-biurowo-usługowych</p>
+        <p>Zabudowa w systemie "suchych tynków" (ściany, sufity, obudowy itp.)</p>
+        </div>
+      <div class="col-2"></div>
+      <div class="col-4">
+        <h4>Prowadzimy również prace wykończeniowe:</h4>
+        <p>Roboty ziemne i usługi brukarskie: układanie chodników, placów i dojazdów z kostki brukowej</p>
+        <p>Docieplanie budynków</p>
+        <p>Roboty izolacyjne</p>
+        <p>Wykonywanie konstrukcji i pokryć dachowych</p>
+        <p>Montaż sufitów podwieszanych</p>
+        <p>Adaptacja poddaszy</p>
+        <p>Parkiety, panele, wykładziny</p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </section>
+  <section id="slide-2"  class="parallax_section">
+<!-- PARALAXA -->
+  </section>
+  <section id="contact">
+  <div class="row">
+    <div class="col-12">Skontaktuj się z nami.</div>
+  </div>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-3"><i class="fa fa-location-arrow fa-3x" aria-hidden="true"></i></div>
+    <div class="col-3"><p><strong>Firma Remontowo Budowlana ROBAU </strong>Mszana Górna 381, 34-733 Mszana Górna</p></div>
+    <div class="col-3"></div>
+  </div>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-3"><i class="fa fa-mobile fa-3x" aria-hidden="true"></i></div>
+    <div class="col-3"><p>606-283-845<br /> Dudzik Robert</p></div>
+    <div class="col-3"></div>
+  </div>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-3"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></div>
+    <div class="col-3">frbrobertd381@interia.pl</div>
+    <div class="col-3"></div>
+  </div>
+  </section>
+
+
+
+
 </div>
 <script type="text/javascript" src="./js/gator.min.js">
 
@@ -40,7 +142,7 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-<script type="text/javascript" src="./js/paralax.js"></script>
+<script type="text/javascript" src="./js/out.js"></script>
 <script>
 		ParallaxBG.init();
 	</script>

@@ -22,13 +22,14 @@
     opacity: 0.9;
     font-weight: 700;
     &:hover{
+      border: 1px solid black;
       background:  rgba(236, 240, 241,0.6);
       cursor: pointer;
       font-weight: 700;
     }
   }
 }
-#about{
+#main{
   background-image: url("../images/cat.jpg");
   filter: brightness(0.8);
   height: 100vh;
@@ -63,7 +64,75 @@
     max-height: 800px;
     min-height: 200px;
 }
-#slide-2{
-  background: red;
+#about{
+  background: rgba(236, 240, 241,1.0);
   height: 100vh;
+
+  .col-6{
+    height: 250px;
+    h3{
+      padding-left: 30px;
+      font-size: 2.5rem;
+    }
+    p{
+      padding: 30px;
+      text-align: justify;
+    }
+    .about-img-top{
+      background-image: url("../images/poziomica.jpg");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-filter: blur(1px);
+      -moz-filter: blur(1px);
+      -o-filter: blur(1px);
+      -ms-filter: blur(1px);
+      filter: blur(1px);
+    }
+    .about-img-bot{
+      background-image: url("../images/build.jpg");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 -150px;
+      filter: saturate(150%);
+    }
+  }
+}
+#work{
+  background-image: url("../images/dzwig.jpg");
+  height: 600px;
+  background-size: cover;
+
+
+  .col-12{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    background: rgba(0, 0, 0,0.3);
+    border: 1px solid black;
+  }
+  .col-4{
+    border: 1px solid black;
+    background: rgba(0, 0, 0,0.3);
+    color: white;
+    line-height: 2rem;
+    margin-top: 100px;
+  }
+}
+#slide-2{
+  background-image: url("../images/zuraw.jpg");
+}
+#contact{
+  background: #e6eae3;
+  height: 500px;
+  .col-12{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .col-3{
+    padding: 40px;
+    font-size: 1.2rem;
+  }
 }
