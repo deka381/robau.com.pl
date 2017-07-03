@@ -2,6 +2,7 @@ module.exports = {
   entry: [
     "./js/paralax.js",
     "./js/menu-btn.js",
+    "./js/slider.js",
           ],
   output: { filename: "./js/out.js" },
   watch: true,

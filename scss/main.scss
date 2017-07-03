@@ -136,3 +136,22 @@
     font-size: 1.2rem;
   }
 }
+#foto{
+  width: 800px;
+  overflow: hidden;
+
+  .foto-slider{
+    display: block;
+    width: 6000px;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+
+    .slide{
+      height: 450px;
+      width: 800px;
+      float: left;
+      list-style-type: none;
+    }
+  }
+}
