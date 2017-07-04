@@ -1,0 +1,46 @@
+@media screen and (max-width: 950px) {
+  #about{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    .about-top{
+      width: 100%;
+      &:nth-of-type(2){
+        display: none;
+      }
+    }
+      .col-6{
+        width: 100%;
+      }
+      .about-img-bot{
+        background-position: 0 -250px !important;
+      }
+    }//koniec about
+
+
+#work{
+  height: auto !important;
+  .col-4{
+    width: 100%;
+    margin-top: 20px !important;
+  }
+}
+#slide-2{
+    background-position: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ////////////////
+}

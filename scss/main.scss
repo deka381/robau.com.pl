@@ -61,7 +61,6 @@
 .parallax_section{
   background-image: url("../images/plan.jpg");
   background-attachment: fixed;
-    background-position: -200px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 24vh;
@@ -172,19 +171,51 @@
     }
   }
 }
-    .row{
-      background: rgba(236, 240, 241,1.0)
-      // height: 10px;
-    }
-.mini-foto{
-  .col-2{
-    img{
-    &:hover{
-      opacity: 0.6;
-      border: 1px solid black;
-    }
-    }
-  }
-  }
+}
+footer{
+  height: 100px;
+  background: #bdc3c7;
 
+  .copy{
+  text-align: center;
+  }
+  .ikon{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .ikon ul{
+    padding-top: 5px;
+    margin-right: 30px;
+  }
+  .ikon ul li{
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 0.7;
+    &:hover{
+    cursor: pointer;
+    opacity: 1.0;
+    }
+  }
+  .sticker {
+    float: right;
+    width: 30px;
+    height:30px;
+  }
+  .face  {
+    background-image: url("../images/facebook.png");
+    background-size: cover;
+  }
+  .linkedin  {
+    background-image: url("../images/linkedin.png");
+    background-size: cover;
+  }
+  .git {
+    background-image: url("../images/git.png");
+    background-size: cover;
+  }
+  .hide{
+    display: none;
+  }
 }

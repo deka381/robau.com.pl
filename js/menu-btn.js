@@ -18,7 +18,12 @@ $(".contact").click(function (){
      scrollTop: $('#contact').offset().top
 }, 500, 'linear');
 });
-
+///////////////////////////
+$(".galery").click(function (){
+   $('html, body').animate({
+     scrollTop: $('#foto-section').offset().top
+}, 500, 'linear');
+});
 
 
 

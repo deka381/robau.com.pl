@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="./scss/reset.css">
+  <link rel="stylesheet" href="./css/media950.css">
   <link rel="stylesheet" href="./css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Rationale" rel="stylesheet">
   <link rel="stylesheet" href="./font/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -17,8 +18,7 @@
       <li class="about">O firmie</li>
       <li class="work">Zakres prac</li>
       <li class="contact">Kontakt</li>
-      <li>Referencje</li>
-      <li>Galeria</li>
+      <li class="galery">Galeria</li>
     </ul>
   </nav>
   <section id="main">
@@ -34,9 +34,9 @@
 
   <section id="about">
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 about-top">
         <h3>O naszej firmie.</h3>
-        <p>W branży budowlanej pracujemy już kilkanaście lat,
+        <p class="about-text">W branży budowlanej pracujemy już kilkanaście lat,
         historia powstania firmy sięga roku 2002. Zakres prowadzonej przez nas
         działalności jest bardzo szeroki. Wykonujemy prace standardowe jak
         i nie boimy się trudnych wyzwań co już pokazaliśmy w przeszłości.
@@ -47,19 +47,19 @@
         </p>
       </div>
 
-      <div class="col-6">
+      <div class="col-6 about-top">
         <div class="about-img-top">
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-6">
+    <div class="row about-row-bot">
+      <div class="col-6 about-bot">
         <div class="about-img-bot">
         </div>
 
       </div>
-      <div class="col-6">
+      <div class="col-6 about-bot">
         <p>
           Nasze prace oparte są na nowoczesnych technologiach jednocześnie nie
           zapominamy o tradycyjnych metodach. Podczas realizacji robót potrafimy
@@ -145,17 +145,27 @@
       <li class="slide" ><img src="./images/galery/gol1.JPG" alt="foto"/></li>
   </ul>
   </div>
-  <div class="row mini-foto">
-    <div class="col-1"></div>
-    <div class="col-2 mini-foto-img"><img src="./images/galery/gol1.JPG" alt="foto"/></div>
-    <div class="col-2 mini-foto-img"><img src="./images/galery/gol2.JPG" alt="foto"/></div>
-    <div class="col-2 mini-foto-img"><img src="./images/galery/gol3.JPG" alt="foto"/></div>
-    <div class="col-2 mini-foto-img"><img src="./images/galery/gol4.JPG" alt="foto"/></div>
-    <div class="col-2 mini-foto-img"><img src="./images/galery/gol5.JPG" alt="foto"/></div>
-    <div class="col-1"></div>
-  </div>
+
 </section>
 
+<footer>
+  <div class="row">
+    <div class="col-4"><img src="./images/logo.png" alt="robau-logo" class="logo"></div>
+    <div class="col-4 copy">
+      <p>&copy; Page created by:</p><br/>
+      <strong>Dudzik Konrad 'deka381'</strong>
+    </div>
+    <div class="col-4 ikon">
+      <ul>
+        <a href="https://www.facebook.com/konrad.dudzik.71"><li class="sticker face "></li></a>
+        <a href="https://www.linkedin.com/in/konrad-dudzik"><li class="sticker linkedin"></li></a>
+        <a href="https://github.com/deka381"><li class="sticker git "></li></a>
+      </ul>
+    </div>
+
+  </div>
+
+</footer>
 
 
 </div>
@@ -166,9 +176,9 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-<script type="text/javascript" src="./js/out.js"></script>
 <script>
 		ParallaxBG.init();
 	</script>
+  <script type="text/javascript" src="./js/out.js"></script>
 </body>
 </html>
